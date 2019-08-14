@@ -68,7 +68,7 @@ export default class CountryPicker extends Component {
                         </TouchableOpacity>
                         {
                             this.state.showSearch ?
-                                <View style={{ justifyContent: 'center', alignItems: 'center', flexDirection: 'row', paddingRight: 15 }}>
+                                <View style={{ justifyContent: 'center', alignItems: 'center', flexDirection: 'row', paddingRight: 30 }}>
                                     <TextInput
                                         ref={(e) => { this.searchInput = e; }}
                                         placeholderTextColor="#aaa"

@@ -25,6 +25,7 @@
         "react-native": "*"
     },
     "dependencies": {
+        "rn-country-picker-minimal": "^1.0.0",
         "underscore": "1.9.1"
     },
     "author": "Ravi Sojitra",
