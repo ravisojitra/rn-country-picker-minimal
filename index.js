@@ -3,9 +3,9 @@ import { View, Text, Modal, VirtualizedList, Image, StyleSheet, TouchableOpacity
 import _ from 'underscore';
 
 const countriesJson = require('./assets/countries.json');
-const backArrow = require('./../assets/back.png');
-const close = require('./../assets/close.png');
-const search = require('./../assets/search.png');
+const backArrow = require('./assets/back.png');
+const close = require('./assets/close.png');
+const search = require('./assets/search.png');
 const countries = Object.values(countriesJson);
 
 export default class CountryPicker extends Component {
