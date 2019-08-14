@@ -85,3 +85,17 @@ const styles = StyleSheet.create({
 
 AppRegistry.registerComponent('example', () => Example)
 ```
+
+
+## Props
+
+| Key               | Type     | Default                                                                                                      | Description                                                                                                                           |
+| ----------------- | -------- | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------- |
+| onHide              | function   | \*required                                                                                                   | callback after country picker hidden                                                                                          |
+| emptySearchMsg       | string   | Can't find this country...                                                                                                        | Message when no country found after searching from input                    |
+| animationType          | string | slide                                                                                                   | valid options = "slide","fade","none"                                                                                                |
+| countryTextColor           | string | black                                                                                                  | country text color for list                                                                                          |
+| flagStyle       | object    | {} | Override any style specified in the component (see source code) |
+| containerStyle  | object    | {} | Override any style specified in the component (see source code)                                                                                |
+| itemStyle       | object    | {} | Override any style specified for country item (see source code)                                                                                  |
+
