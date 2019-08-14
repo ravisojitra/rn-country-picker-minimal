@@ -1,0 +1,36 @@
+{
+    "name": "react-native-country-picker-minimal",
+    "version": "1.0.0",
+    "description": "A simple country picker for react native applications",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ravisojitra/rn-country-picker.git"
+    },
+    "keywords": [
+        "react",
+        "react-native",
+        "country-picker",
+        "react-native-component",
+        "mobile",
+        "ios",
+        "android",
+        "ui"
+    ],
+    "peerDependencies": {
+        "react": "*",
+        "react-native": "*"
+    },
+    "dependencies": {
+        "underscore": "1.9.1"
+    },
+    "author": "Ravi Sojitra",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ravisojitra/rn-country-picker/issues"
+    },
+    "homepage": "https://github.com/ravisojitra/rn-country-picker#readme"
+}

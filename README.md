@@ -1,2 +1,2 @@
-# rn-country-picker-minimal
-A minimal library for country picker
+# rn-country-picker
+A Simple country picker for react native applications
