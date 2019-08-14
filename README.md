@@ -10,8 +10,6 @@ $ yarn add rn-country-picker-minimal
 ## Basic Usage
 
 ```jsx
-import DeviceInfo from 'react-native-device-info'
-
 import React, {
   AppRegistry,
   Component,
