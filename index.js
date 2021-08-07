@@ -38,7 +38,7 @@ export default class CountryPicker extends Component {
             return country.name.common && country.name.common.toLowerCase().indexOf(text.toLowerCase()) >= 0
         });
         this.setState({ countries: filteredCountries, countryName: text })
-    }, 300)
+    }, 250)
 
     componentDidMount() {
         setTimeout(() => {
